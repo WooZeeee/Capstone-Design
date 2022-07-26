@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta NAME="Generator" CONTENT="EditPlus">
+    <meta NAME="Author" CONTENT="">
+    <meta NAME="Keywords" CONTENT="">
+    <meta NAME="Description" CONTENT="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/member.css">
+    <title>대학 길 안내 서비스</title>
+
+    <!-- link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/member.css">
+    <!-- script -->
+    <script language="javascript">
+        function showimage() {
+            if (!document.images)
+                return
+            document.images.pictures.src =
+                document.mygallery.picture.options[document.mygallery.picture.selectedIndex].value
+        }
+    </script>
+    <script>
+        alert("현재 선택하신 건물번호는 4번(대학원) 입니다!\n경로 안내를 원하는 건물 번호를 선택해주세요!")
+    </script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <div id="content">
+        <header id="main_header">
+            <div id="title">
+                <h1>대학 길 안내 서비스</h1>
+            </div>
+        </header>
+        <div class="container">
+            <tr>
+                <td>
+                    <form method="post" name="mygallery">
+                        <p align=center> <br><select name="picture" onChange="showimage()" class="form-select"
+                                aria-label="Default select example" text-align;>
+                                <option value="">도착 할 건물을 선택해주세요!</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfNjkg/MDAxNjU0OTQzMzQ4MDM4.U-SS1RaKxlCS4eRB3lHmzqBuEBogH0YPBqvch47eodQg.kP6TGyT-EGwPXWA6rkIa80LfzuSIYBmJPErqPh7Tz8og.JPEG.xkrptjr/4-1.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">경영관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfMTMw/MDAxNjU0OTQzMzQ3OTc5.im7A_xBEMS2YzkKVPJAXCK9oRHsIPY8kK-YUyah4N80g.w2qsmE_MfvsIxxdshm2pPT3HGFRr3UIZcmMRYZUveIgg.JPEG.xkrptjr/4-2.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">사회과학관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfNDEg/MDAxNjU0OTQzMzQ3OTc0.oomyHXQFlst3zY1L9mcimeeaMgW4-IJ_9zSxOjr-vzog.1NJhY3ADpLMT10FMChssnxuIWGN_c3ME6S9dC4ZaBdAg.JPEG.xkrptjr/4-3.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">건축디자인관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfMTQz/MDAxNjU0OTQzMzQ3OTg0.juUVK6cS1e7X5F0tfP8ky1PvfRsa1Kc8XEUuM68MYIwg.SXQjDbIUSXFqP_-yBvMpK2a0ulYGrsAv0MMsE3Q76_Mg.JPEG.xkrptjr/4-6.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">학생회관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfNDAg/MDAxNjU0OTQzMzQ3OTgz.dXekqQ8iripfSdoLYnaGiMdQAs9vL6amTzCoG5yk-REg.mh1NSt6GYl7VbbObqBA-plSgQA4uq-JOUqosJqy4d60g.JPEG.xkrptjr/4-8.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">산학협력단</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfMzAw/MDAxNjU0OTQzMzQ4MDA3.rj5iwHRG1GniL2jtYNxCsL1HqLinyMFh6PS75e0QVZwg.ewVfKA37hufGXBrFxM9OoC128H94z-DGzPRXhyLSkaMg.JPEG.xkrptjr/4-10.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">중앙도서관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfMTMz/MDAxNjU0OTQzMzQ4Mzg5.eSLaGHPViiN_pBBE1eXR1ZviZFVsFQDfrNFBP4_LLbQg.rNDSXW18-H46svWAIp6c6Bsw9EQ27BmhqM_hrWpxAJog.JPEG.xkrptjr/4-15.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">제1정보통신관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfNzcg/MDAxNjU0OTQzMzQ4NTMy.yEhJOykS0HJsjvXfcMdNArXhIWHIIpehFUp4DtKLm5Yg.QG7m2UX-mJc6fg355ATPaUfO8hVVmq9ahB1aZqUwk2Ag.JPEG.xkrptjr/4-16.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">제2정보통신관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfOSAg/MDAxNjU0OTQzMzQ4MzE4.ZRzMhhejFnaGUTquXNREdS8sPHfbtuSg-g5KdVrJEksg.qnNydyNkEBjbbO_nXYtt0oD-jhcXDBtb-_I3GvvCt9Ug.JPEG.xkrptjr/4-11.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">동명관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfMjAy/MDAxNjU0OTQzMzQ4MjUz.QTXv3p_ZIVetQbjP5k1ObX3VEAsHTb5yeFKAK0AoAwsg.qLKM3Y7IoZhGtWQ0A0hhP8gKO1BqQnnYkchLFKLHyAgg.JPEG.xkrptjr/4-12.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">제1공학관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfNDkg/MDAxNjU0OTQzMzQ4MjU3.XTAO1a6lD9HJ6qPQv6MJ1l-4xUo1xA5pnZCwV44v1asg.0RMXLHHeWtDpS58jVKVhbu9J7MiPN_4LpzlzZwyqMeUg.JPEG.xkrptjr/4-13.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">제2공학관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfNjcg/MDAxNjU0OTQzMzQ4MzQ4.kRQRM4BZXjDHFUf3rj8JmpID9LpBpZ7kR50UX4jEoesg.GQkU5PuOHCYIvE2AxLjaDxks-1S1A6brE6RrFtHD8-Eg.JPEG.xkrptjr/4-14.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">제3공학관</option>
+                                <option
+                                    value="https://postfiles.pstatic.net/MjAyMjA2MTFfMzIg/MDAxNjU0OTQzMzQ4NDk5.Ur3ZkaETPT6xjrKAqPNTOKMKMzzyFdEPVUnMJce0yygg.CwM5oVo3ifSZC6-i3iaCkcJcmyWm-HWi3odiqyINP9Ig.JPEG.xkrptjr/4-17.jpg?type=w966"
+                                    style="max-width: 100%; height:auto;">항만물류관</option>
+                            </select></p>
+                    </form>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%">
+                    <p align="center"><img
+                            src="https://postfiles.pstatic.net/MjAyMjA2MTFfMjA4/MDAxNjU0OTQ1OTQzNjI4.OFzQlNUkukVYzYCSK_mwQK6vKWtSsaKPNF57lrSJzuUg.WXnXvc0PEcHsFMZuLUMcULWvGxy-czhXDtCHW8c_l5wg.JPEG.xkrptjr/4.jpg?type=w966"
+                            style="max-width: 100%; height:auto;" name="pictures">
+                </td>
+            </tr>
+            </table>
+        </div>
+</body>
+
+</html>
